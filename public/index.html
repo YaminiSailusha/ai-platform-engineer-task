@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>AI Platform Engineer Task</title>
+
+  <style>
+
+    body {
+      font-family: Arial, sans-serif;
+      margin: 30px;
+      background: #f5f5f5;
+      color: #222;
+    }
+
+    h1 {
+      color: #111;
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 1.5;
+    }
+
+    textarea {
+      width: 100%;
+      height: 180px;
+      padding: 12px;
+      font-size: 16px;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+      margin-top: 10px;
+      resize: vertical;
+    }
+
+    button {
+      padding: 12px 24px;
+      margin-top: 15px;
+      border: none;
+      border-radius: 8px;
+      background: #222;
+      color: white;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: #444;
+    }
+
+    pre {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      overflow-x: auto;
+      margin-top: 20px;
+      white-space: pre-wrap;
+      line-height: 1.5;
+      font-size: 14px;
+      border: 1px solid #ddd;
+    }
+
+    .footer {
+      margin-top: 30px;
+      font-size: 14px;
+      color: #666;
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <h1>AI Platform Engineer Task</h1>
+
+  <p>
+    This system converts natural language requirements into structured,
+    validated, executable application schemas using a deterministic
+    multi-stage generation pipeline.
+  </p>
+
+  <textarea
+    id="prompt"
+    placeholder="Example: Build a hospital management system with doctors, patients, appointments, analytics and role-based access"
+  ></textarea>
+
+  <br>
+
+  <button onclick="generateApp()">
+    Generate Application
+  </button>
+
+  <pre id="output"></pre>
+
+  <div class="footer">
+    Pipeline:
+    Intent Extraction →
+    System Design →
+    Schema Generation →
+    Validation →
+    Repair Engine →
+    Runtime Simulation
+  </div>
+
+  <script src="app.js"></script>
+
+</body>
+
+</html>

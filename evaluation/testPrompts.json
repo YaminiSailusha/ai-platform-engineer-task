@@ -1,0 +1,165 @@
+[
+  {
+    "id": 1,
+    "type": "normal",
+    "prompt": "Build a CRM with login, contacts, analytics dashboard and admin roles",
+    "expectedFeatures": [
+      "authentication",
+      "analytics"
+    ]
+  },
+
+  {
+    "id": 2,
+    "type": "normal",
+    "prompt": "Create a hospital management system with doctors, patients and appointments",
+    "expectedEntities": [
+      "doctors",
+      "patients",
+      "appointments"
+    ]
+  },
+
+  {
+    "id": 3,
+    "type": "normal",
+    "prompt": "Build an e-commerce app with products, payments and order tracking",
+    "expectedFeatures": [
+      "payments"
+    ]
+  },
+
+  {
+    "id": 4,
+    "type": "normal",
+    "prompt": "Create a school portal with teachers, students, attendance and login",
+    "expectedFeatures": [
+      "authentication"
+    ]
+  },
+
+  {
+    "id": 5,
+    "type": "normal",
+    "prompt": "Build a project management tool with tasks, admin dashboard and analytics",
+    "expectedFeatures": [
+      "analytics"
+    ]
+  },
+
+  {
+    "id": 6,
+    "type": "normal",
+    "prompt": "Create a banking system with users, transactions and admin monitoring",
+    "expectedRoles": [
+      "admin",
+      "user"
+    ]
+  },
+
+  {
+    "id": 7,
+    "type": "normal",
+    "prompt": "Build a fitness tracking app with login and dashboards",
+    "expectedFeatures": [
+      "authentication"
+    ]
+  },
+
+  {
+    "id": 8,
+    "type": "normal",
+    "prompt": "Create a booking platform with payments and user accounts",
+    "expectedFeatures": [
+      "payments"
+    ]
+  },
+
+  {
+    "id": 9,
+    "type": "normal",
+    "prompt": "Build a support ticket system with admin analytics",
+    "expectedFeatures": [
+      "analytics"
+    ]
+  },
+
+  {
+    "id": 10,
+    "type": "normal",
+    "prompt": "Create a job portal with employers, candidates and authentication",
+    "expectedFeatures": [
+      "authentication"
+    ]
+  },
+
+  {
+    "id": 11,
+    "type": "vague",
+    "prompt": "Build something useful",
+    "expectedBehavior": "clarification"
+  },
+
+  {
+    "id": 12,
+    "type": "vague",
+    "prompt": "Create an app",
+    "expectedBehavior": "clarification"
+  },
+
+  {
+    "id": 13,
+    "type": "vague",
+    "prompt": "Need a platform",
+    "expectedBehavior": "clarification"
+  },
+
+  {
+    "id": 14,
+    "type": "conflicting",
+    "prompt": "Create an admin-only system where everyone has full access",
+    "expectedBehavior": "repair"
+  },
+
+  {
+    "id": 15,
+    "type": "conflicting",
+    "prompt": "Build a public dashboard with private anonymous authentication",
+    "expectedBehavior": "repair"
+  },
+
+  {
+    "id": 16,
+    "type": "incomplete",
+    "prompt": "Build CRM with payments",
+    "expectedBehavior": "partial-generation"
+  },
+
+  {
+    "id": 17,
+    "type": "incomplete",
+    "prompt": "Hospital system with doctors",
+    "expectedBehavior": "partial-generation"
+  },
+
+  {
+    "id": 18,
+    "type": "edge-case",
+    "prompt": "",
+    "expectedBehavior": "clarification"
+  },
+
+  {
+    "id": 19,
+    "type": "edge-case",
+    "prompt": "12345",
+    "expectedBehavior": "clarification"
+  },
+
+  {
+    "id": 20,
+    "type": "edge-case",
+    "prompt": "Build a scalable AI-powered blockchain metaverse hospital CRM with quantum analytics",
+    "expectedBehavior": "generation"
+  }
+]
